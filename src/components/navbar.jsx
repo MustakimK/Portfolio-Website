@@ -44,7 +44,9 @@ const NavBar = () => {
                     </a>
                 </li>
                 <div className={`menu-icon ${isOpen ? "close" : ""}`} onClick={toggleMenu}>
-                    {isOpen ? 'X' : '☰'}
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
                 <ul className={`links ${isOpen ? "active" : ""}`}>
                     <li><a href="#about" className="link" onClick={(e) => handleNavLinkClick(e, '#about')}>About</a></li>

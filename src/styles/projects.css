@@ -39,6 +39,14 @@
     display: none;
 }
 
+@media (min-width: 769px) {
+    .project-display:last-child:nth-of-type(odd) {
+        grid-column: 1 / -1;
+        width: calc(50% - 0.5px);
+        justify-self: center;
+    }
+}
+
 @media (max-width: 768px) {
     .projects{
         grid-template-columns: 1fr;

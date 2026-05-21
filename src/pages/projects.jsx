@@ -3,7 +3,23 @@ import '../styles/projects.css';
 
 const sampleProjects = [
     {
+        id: 0,
+        title: 'Spotify Car Thing Standalone Firmware',
+        description: "Custom firmware that resurrects the discontinued Spotify Car Thing as a standalone playback display, no companion app required. A Go daemon connects to Spotify's Connect-state protocol to show track info, synced lyrics, and route playback controls to active devices, with a React and TypeScript UI on top. Bluetooth PAN tethering handles internet, with auto-recovery for dropped links. Currently in beta with ~30 testers.",
+        imageUrl: ['./images/projects/Cover.jpg', './images/projects/Lyrics.jpg'],
+        technologies: ['Go', 'TypeScript', 'React', 'Linux', 'Embedded'],
+        githubUrl: 'https://github.com/thing-project/thing-releases',
+    },
+    {
         id: 1,
+        title: 'Veritas: Political Bias Detection and Fact Checking',
+        description: "An end-to-end AI system for real-time political bias detection and claim verification, delivered as a Chrome extension. A sentence-level classifier (Left/Center/Right) trained on DeBERTa-v3-large with adversarial adaptation achieves 82% held-out accuracy and a 14% improvement over baseline on unseen sources. A FastAPI backend handles filtering, aggregation, and explainability.",
+        imageUrl: ['./images/projects/capstonedemo.png', './images/projects/capstoneOOD.png', './images/projects/capstonetest.png'],
+        technologies: ['Python', 'PyTorch', 'FastAPI', 'TypeScript', 'React'],
+        githubUrl: 'https://github.com/Veritas-Capstone/TL69---Capstone',
+    },
+    {
+        id: 2,
         title: 'Steam Review Helpfulness Prediction',
         description: "A machine learning project that predicts whether a Steam review will be voted helpful by the community. Built using TF-IDF text features, reviewer metadata, and logistic regression, with threshold tuning to outperform a majority-class baseline. The model captures informal gaming language using character n-grams and is evaluated using F1, precision, recall, and confusion matrices.",
         imageUrl: ['./images/projects/F1.png', './images/projects/model_performance.png', './images/projects/confusion_matrix.png'], 
@@ -11,16 +27,16 @@ const sampleProjects = [
         githubUrl: 'https://github.com/MustakimK/Steam-Review-Helpfulness-Prediction',
     },
     {
-        id: 2,
+        id: 3,
         title: 'Personal Portfolio Website',
         description: "This portfolio website is a reflection of my journey in Full Stack Software Development, showcasing my projects, skills learned, and personal growth in the field. It's crafted with HTML, CSS, and JavaScript, and provides insights into my work, serving as a point of contact for potential collaborations and learning opportunities.",
         imageUrl: ['./images/projects/portfoliowebsite1.png', './images/projects/portfoliowebsite2.png', './images/projects/portfoliowebsite3.png', './images/projects/portfoliowebsite4.png'], 
         technologies: ['Javascript', 'React', 'HTML', 'CSS', 'Vite'],
         githubUrl: 'https://github.com/MustakimK/Portfolio-Website',
-        liveDemoUrl: 'https://ilied.com'
+        liveDemoUrl: 'https://mustakimkazi.dev'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Halal Scanner',
         description: "An Android app that helps users identify Halal or Haram food products using Google's ML Kit Vision for barcode and text scanning, along with the Open Food Facts API for ingredient information. It's designed to store up to 100 items in the history, showcasing my skills in Android development, Google ML Kit Vision, API integration, and local database management with Android Room and SQLite.",
         imageUrl: ['./images/projects/halalscanner1.png', './images/projects/halalscanner2.png'], 
@@ -28,7 +44,7 @@ const sampleProjects = [
         githubUrl: 'https://github.com/MustakimK/Halal-Scanner'
     },
     {
-        id: 4,
+        id: 5,
         title: 'MKShell',
         description: "MKShell is a custom UNIX shell written in C. It includes common shell commands, a command history, signal handling, and robust error messages. It's designed for Linux environments and demonstrates my system programming skills.",
         imageUrl: ['./images/projects/shellproj.png'], 
@@ -36,7 +52,7 @@ const sampleProjects = [
         githubUrl: 'https://github.com/MustakimK/MKShell'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Rinvest',
         description: "Built to empower small businesses and entrepreneurs through accessible investment opportunities. This project, was built using React.js, Firebase and CSS. Working on this project allowed us to strengthen our teamwork skills and collaborate effectively in a hackathon environment.",
         imageUrl: ['./images/projects/deltahacks1.png','./images/projects/deltahacks2.png','./images/projects/deltahacks3.png','./images/projects/deltahacks4.png'], 
@@ -44,7 +60,7 @@ const sampleProjects = [
         githubUrl: 'https://github.com/AsherHaroon/DeltaHacksProject'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Spy Network Communication System',
         description: "This is a Java-based simulation project developed for CS 2ME3 at McMaster University. It demonstrates proficiency in software design and object-oriented programming by creating a secure communication system within a spy network. Key features include encryption algorithms and the use of design patterns for adaptable and secure communication.",
         imageUrl: ['./images/projects/spynetwork.png'],
@@ -52,7 +68,7 @@ const sampleProjects = [
         githubUrl: 'https://github.com/MustakimK/Spy-Network-Communication-System'
     },
     {
-        id: 7,
+        id: 8,
         title: 'Game Server Rolling Backup',
         description: "A utility that automatically creates backups of your game server at fixed intervals. It's designed to be used with Docker and offers flexibility through environment variables, allowing you to customize save and backup directories, backup frequency, and backup retention period.",
         imageUrl: ['./images/projects/gameserverbackup.png'], 
@@ -60,7 +76,7 @@ const sampleProjects = [
         githubUrl: 'https://github.com/MustakimK/Game-Server-Rolling-Backup'
     },
     {
-        id: 8,
+        id: 9,
         title: 'Derivative Calculator',
         description: "The Derivative Calculator is a Haskell module for symbolic computation of mathematical expression derivatives. It features an AST representation, evaluation, differentiation, and pretty printing of expressions, demonstrating proficiency in Haskell programming.",
         imageUrl: ['./images/projects/derivativecalc.png'],
@@ -68,7 +84,7 @@ const sampleProjects = [
         githubUrl: 'https://github.com/MustakimK/Derivative-Calculator'
     },
     {
-        id: 9,
+        id: 10,
         title: 'Kaztastic Discord Bot',
         description: "A versatile Discord bot for server management and user interaction, featuring moderation, fun, utility, and informational commands. Developed to deepen my understanding of JavaScript and the Discord API.",
         imageUrl: ['./images/projects/discbot1.png', './images/projects/discbot2.png', './images/projects/discbot3.png'],

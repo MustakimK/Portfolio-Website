@@ -8,16 +8,15 @@ export const smoothScroll = (targetElement) => {
     const animation = currentTime => {
         if (startTime === null) startTime = currentTime;
         const timeElapsed = currentTime - startTime;
-        const run = easeInOutQuad(timeElapsed, startPosition, distance, duration);
+        const run = easeOutCubic(timeElapsed, startPosition, distance, duration);
         window.scrollTo(0, run);
         if (timeElapsed < duration) requestAnimationFrame(animation);
     };
 
-    const easeInOutQuad = (t, b, c, d) => {
-        t /= d / 2;
-        if (t < 1) return c / 2 * t * t + b;
+    const easeOutCubic = (t, b, c, d) => {
+        t /= d;
         t--;
-        return -c / 2 * (t * (t - 2) - 1) + b;
+        return c * (t * t * t + 1) + b;
     };
 
     requestAnimationFrame(animation);

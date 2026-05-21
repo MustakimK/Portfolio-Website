@@ -10,6 +10,8 @@ const Home = () => {
                 </h1>
                 <h2>
                     Full Stack Software Developer.
+                    <br />
+                    Open to full-time roles.
                 </h2>
                 <div className="social-icons">
                     <a href="https://www.linkedin.com/in/mustakim-kazi-92844a221/" target="_blank" rel="noopener noreferrer">

@@ -47,12 +47,11 @@
 
 .about-me-container > .about-pic {
     width: 300px;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
     margin-left: 20px;
     border-radius: 10px;
-    border: 2px solid #000000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 2px #000000, 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 900px) {

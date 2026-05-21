@@ -14,6 +14,7 @@ const Skills = () => {
                         <li><img src="./icons/typescript.svg" alt="TypeScript" /> TypeScript</li>
                         <li><img src="./icons/javascript.svg" alt="JavaScript" /> JavaScript</li>
                         <li><img src="./icons/java.svg" alt="Java" /> Java</li>
+                        <li><img src="./icons/go.svg" alt="Go" /> Go</li>
                         <li><img src="./icons/rust.svg" alt="Rust" /> Rust</li>
                         <li><img src="./icons/html.svg" alt="HTML" /> HTML</li>
                         <li><img src="./icons/css.svg" alt="CSS" /> CSS</li>
@@ -29,6 +30,9 @@ const Skills = () => {
                     <ul>
                         <li><img src="./icons/node.svg" alt="Node" /> Node</li>
                         <li><img src="./icons/react.svg" alt="React" /> React</li>
+                        <li><img src="./icons/pytorch.svg" alt="PyTorch" /> PyTorch</li>
+                        <li><img src="./icons/FastAPI.svg" alt="FastAPI" /> FastAPI</li>
+                        <li><img src="./icons/scss.svg" alt="SCSS" /> SCSS</li>
                         <li><img src="./icons/docker.svg" alt="Docker" /> Docker</li>
                         <li><img src="./icons/jetpack.svg" alt="Jetpack Compose" /> Jetpack Compose</li>
                         <li><img src="./icons/mongo.svg" alt="MongoBD" /> MongoDB</li>
@@ -41,7 +45,11 @@ const Skills = () => {
                     <ul>
                         <li><img src="./icons/git.svg" alt="Git" /> Git</li>
                         <li><img src="./icons/gitlab.svg" alt="GitLab" /> GitLab</li>
+                        <li><img src="./icons/Jira.svg" alt="Jira" /> Jira</li>
                         <li><img src="./icons/postman.svg" alt="Postman" /> Postman</li>
+                        <li><img src="./icons/JUnit.svg" alt="JUnit" /> JUnit</li>
+                        <li><img src="./icons/Jest.svg" alt="Jest" /> Jest</li>
+                        <li><img src="./icons/pytest.svg" alt="Pytest" /> Pytest</li>
                         <li><img src="./icons/linux.svg" alt="Linux" /> Linux</li>
                         <li><img src="./icons/windows.svg" alt="Windows" /> Windows</li>
                         <li><img src="./icons/intellij.svg" alt="Intellij" /> Intellij Idea</li>
