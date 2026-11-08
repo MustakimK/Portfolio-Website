@@ -33,7 +33,7 @@ const sampleProjects = [
         imageUrl: ['./images/projects/portfoliowebsite1.png', './images/projects/portfoliowebsite2.png', './images/projects/portfoliowebsite3.png', './images/projects/portfoliowebsite4.png'], 
         technologies: ['Javascript', 'React', 'HTML', 'CSS', 'Vite'],
         githubUrl: 'https://github.com/MustakimK/Portfolio-Website',
-        liveDemoUrl: 'https://mustakimkazi.dev'
+        liveDemoUrl: 'https://mustakimkazi.com'
     },
     {
         id: 4,

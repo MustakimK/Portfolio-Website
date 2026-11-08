@@ -1,6 +1,6 @@
 # My Personal Portfolio
 
-This website serves as a showcase of my skills, projects, and experiences as a Full Stack Software Developer. You can view the live site by clicking [here](https://mustakimkazi.dev/)!
+This website serves as a showcase of my skills, projects, and experiences as a Full Stack Software Developer. You can view the live site by clicking [here](https://mustakimkazi.com/)!
 
 ## Introduction
 
